@@ -1,0 +1,36 @@
+/* Footer Section */
+.footer {
+  background-color: #141414;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 14px;
+}
+
+.footer .social-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.footer .social-links li {
+  display: inline-block;
+}
+
+.footer .social-links a {
+  color: #ffffff;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.footer .social-links a:hover {
+  color: #00C9FF;
+}
+.fi fi-brands-linkedin {
+ font-size: 20px; 
+}

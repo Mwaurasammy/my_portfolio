@@ -1,0 +1,50 @@
+/* Contact Section */
+.contact-section {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 36px;
+  color: #00C9FF;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #444444;
+  border-radius: 10px;
+  background-color: #2a2a2a;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+textarea {
+  resize: vertical;
+  height: 150px;
+}
+
+button {
+  padding: 10px 40px;
+  background-color: #00C9FF;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #00a7d8;
+}
