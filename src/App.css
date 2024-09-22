@@ -52,3 +52,11 @@ button, .btn {
 button:hover, .btn:hover {
   background-color: #00a7d8;
 }
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr; /* Single column layout for small screens */
+  }
+}
+

@@ -34,3 +34,10 @@
 .fi fi-brands-linkedin {
  font-size: 20px; 
 }
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr; /* Single column layout for small screens */
+  }
+}

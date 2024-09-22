@@ -63,3 +63,10 @@
   width: 80%;
   height: auto;
 }
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr; /* Single column layout for small screens */
+  }
+}

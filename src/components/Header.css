@@ -70,3 +70,10 @@ header {
   text-decoration: none;
   font-weight: bold;
 }
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr; /* Single column layout for small screens */
+  }
+}
