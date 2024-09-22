@@ -49,6 +49,12 @@ header {
   margin-top: 4rem;
 }
 
+.typed {
+  color: #81e6d9;
+  font-size: 50px;
+  font-weight: bold;
+}
+
 .hero-section h2 {
   font-size: 3rem;
   color: #00bfa5;
@@ -70,6 +76,7 @@ header {
   text-decoration: none;
   font-weight: bold;
 }
+
 
 /* Responsive design */
 @media (max-width: 768px) {

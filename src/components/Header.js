@@ -18,12 +18,13 @@ const Header = () => {
         </ul>
       </nav>
       <div className="hero-section">
+        <div className="typed">
         <Typed
           strings={["Hi, Sammy here."]}
-          typeSpeed={40}
-          backSpeed={50}
-          loop
+          typeSpeed={60}
+          backSpeed={120}
         />
+        </div>
         <p>Turning ideas into reality with code.</p>
         <a href="#projects" className="btn">View Projects</a>
       </div>
